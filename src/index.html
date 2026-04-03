@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Library</title>
+  </head>
+  <body>
+    <div
+      id = "add_book" class=" hidden z-index-10 fixed h-screen w-screen top-0 left-0 bg-black/50 flex justify-center items-center justify-items-center"
+    >
+      <div
+        class="bg-white w-96 h-96 rounded-xl shadow-[0_4px_6px_-4px_rgba(0,0,0,0.4)] p-6 flex flex-col gap-4"
+      >
+        <h2 class="text-2xl font-bold">Add a new book</h2>
+        <input
+          type="text"
+          placeholder="Book name"
+          class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <input
+          type="number"
+          placeholder="Page count"
+          class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <button
+          class="w-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold py-2 rounded-lg transition duration-200"
+        >
+          Add Book
+        </button>
+        <button
+          class="w-full bg-red-500 hover:bg-red-600 text-white text-sm font-semibold py-2 rounded-lg transition duration-200"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div
+      class="h-24 w-full flex justify-between items-center bg-olive-100 px-6 shadow-[0_4px_6px_-4px_rgba(0,0,0,0.4)]"
+    >
+      <h1 class="text-4xl font-bold">Library</h1>
+      <h1 class="text-xl font-bold">Log In</h1>
+    </div>
+    <div class="h-80 w-full flex justify-center items-center">
+      <button
+        class="bg-gray-400 text-xl p-4 rounded-2xl shadow-[0_4px_6px_-4px_rgba(0,0,0,0.4)]"
+      >
+        + Add book
+      </button>
+    </div>
+
+    <div
+      class="grid grid-flow-row grid-cols-2 w-full p-6 gap-8 lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-3"
+    >
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl py-2 text-center gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl text-center py-2 gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl text-center py-2 gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl text-center py-2 gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl text-center py-2 gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+      <div
+        class="bg-gray-200 shadow-2xl rounded-xl text-xl text-center py-2 gap-2 flex flex-col items-center"
+      >
+        <p>name</p>
+        <p>author</p>
+        <p>page</p>
+        <button
+          class="w-24 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          read
+        </button>
+        <button
+          class="w-24 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold py-1.5 rounded-lg transition duration-200"
+        >
+          delete
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
